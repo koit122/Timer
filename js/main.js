@@ -12,7 +12,7 @@ btnEl.addEventListener('click',()=>{
   logic = !logic;
   var t = 0;
   if(logic){
-    btnEl.textContent="Stopt";
+    btnEl.textContent="Stop";
   }else{
     btnEl.textContent="Start"
     clearInterval(timer)
